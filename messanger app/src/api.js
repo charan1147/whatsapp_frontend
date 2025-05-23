@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://whatsapp-backend-3-cc0j.onrender.com/api',
+  baseURL: 'http://localhost:5013/api',
   withCredentials: true, 
 });
 
